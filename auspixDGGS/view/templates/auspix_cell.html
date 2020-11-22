@@ -61,6 +61,18 @@
         <dt>Part of parent cell:</dt>
         <dd><em><a href="{{ url_for('controller.auspix_cell', auspix_cell_id=partOfCell) }}">{{ partOfCell }}</a></em></dd>
 
+        <dt>Crosswalk SA1 code for this AusPIX cell:</dt>
+        <dd><em><a href="{{ url_for('controller.auspix_cell', auspix_cell_id = sa1code) }}">{{ sa1code }}</a></em></dd>
+
+        <dt>Crosswalk SA2 name:</dt>
+        <dd><em><a href="{{ url_for('controller.auspix_cell', auspix_cell_id = sa2name) }}">{{ sa2name }}</a></em></dd>
+
+        <dt>Crosswalk State Electoral District 2019 name:</dt>
+        <dd><em><a href="{{ url_for('controller.auspix_cell', auspix_cell_id = sedname) }}">{{ sedname }}</a></em></dd>
+
+
+
+
 
     </dl>
     <p>

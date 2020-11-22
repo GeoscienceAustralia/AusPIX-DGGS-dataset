@@ -11,7 +11,7 @@ from pyldapi import Renderer, Profile
 
 from rdflib import Graph, URIRef, RDF, XSD, Namespace, Literal, BNode
 from rdflib.namespace import XSD, DCTERMS, RDFS   #imported for 'export_rdf' function
-#from _conf import DB_CON_DICT
+from _conf import DB_CON_DICT
 import psycopg2
 
 
@@ -65,11 +65,16 @@ class DGGS_data(Renderer):
         self.contains = None
         self.subCells = None
         self.partOfCell = None
+        self.sa1code = None
+        self.sa2name = None
+        self.sedname = None
+
 
 
         # use DGGS engine to find values
 
         self.auspix = self.id
+        print('auspix', type(self.auspix))
         #print('dggs cell ID =', self.auspix)
         self.hasName = self.id
         dggsLoc = list()  # empty list ready to fill
@@ -150,11 +155,13 @@ class DGGS_data(Renderer):
         #print('mysubs', mySubCells)
         self.partOfCell = self.auspix[:-1]  #take one number off the end of cell ID, = parent cell
 
-        # connect to crosswalk table and get crosswalk information for this cell
-        mycells = (self.auspix, "", "")
+        #connect to crosswalk table and get crosswalk information for this cell
+        mycells = (self.id, "")
+
 
         print('query AWS database . . . . ')
-        connection = psycopg2.connect(XXXX
+        connection = psycopg2.connect(**DB_CON_DICT)
+
         cursor = connection.cursor()
 
         # postgreSQL_select_Query = " SELECT * FROM crosswalk WHERE auspix_dggs IN %s;"   # works but return not json
@@ -162,22 +169,28 @@ class DGGS_data(Renderer):
         postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN %s;"  # seems to only get the first item as json
 
         # postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN  ('R7852348515', 'R7852348516', 'R7852348517');"
-        cursor.execute(postgreSQL_select_Query, (mycells,))
+        cursor.execute(postgreSQL_select_Query, (mycells, ))
 
         print("Selecting rows from national crosswalk table using cursor.fetchall")
 
         theseRecords = cursor.fetchall()
-        print('num Recs', len(theseRecords))
+        print('num Recs', theseRecords)
 
         result = theseRecords[0][0][0]
 
         for key, value in result.items():
             print(key, ' : ', value)
 
-        print("AusPIX cell URI", result['auspix_uri'])
+        print("SA1 code 2016 = ", result['sa1_main16'])
+        self.sa1code = result['sa1_main16']
 
-        print("SA1 code 2016", result['sa1_main16'])
-        print("SA1 SQkm 2016 ", result['sa1sqkm16'])
+        print('sa2 name', result['sa2_name16'])
+        self.sa2name = result['sa2_name16']
+        self.sedname = result['sedname19']
+
+
+
+
 
 
     def export_html(self):
@@ -198,6 +211,9 @@ class DGGS_data(Renderer):
                     area_m2= self.area_m2,
                     contains = self.contains,
                     partOfCell = self.partOfCell,
+                    sa1code = self.sa1code,
+                    sa2name = self.sa2name,
+                    sedname = self.sedname,
 
                     neighs = self.neighs
                     # schemaorg=self.export_schemaorg()
@@ -216,40 +232,6 @@ class DGGS_data(Renderer):
             return self.export_rdf()
         else:  # default is HTML response: self.format == 'text/html':
             return self.export_html()
-
-
-    def crosswalk_fetch(cell):
-        mycells = ("R7852372438", "")
-
-        print('query AWS database . . . . ')
-        connection = DB_CON_DICT
-        cursor = connection.cursor()
-
-        # postgreSQL_select_Query = " SELECT * FROM crosswalk WHERE auspix_dggs IN %s;"   # works but return not json
-        # return data as json
-        postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN %s;"  # seems to only get the first item as json
-
-        # postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN  ('R7852348515', 'R7852348516', 'R7852348517');"
-        cursor.execute(postgreSQL_select_Query, (mycells,))
-
-        print("Selecting rows from national crosswalk table using cursor.fetchall")
-
-        theseRecords = cursor.fetchall()
-        print('num Recs', len(theseRecords))
-
-        result = theseRecords[0][0][0]
-
-        for key, value in result.items():
-            print(key, ' : ', value)
-
-        print("AusPIX cell URI", result['auspix_uri'])
-
-        print("SA1 code 2016", result['sa1_main16'])
-        print("SA1 SQkm 2016 ", result['sa1sqkm16'])
-        return print('done')
-
-
-
 
 
 
@@ -366,3 +348,5 @@ if __name__ == '__main__':
     # print(a.export_rdf().decode('utf-8'))
 
     print('main process has not been built yet - when build it will test ask for a placename like the code Gnaf above')
+
+

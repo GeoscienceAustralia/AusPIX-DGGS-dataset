@@ -13351,3 +13351,715 @@
 2020-11-17 07:48:27 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 2020-11-17 07:48:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 07:48:33] "GET /ausPIX/R7581234567 HTTP/1.1" 200 -
 2020-11-17 07:48:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 07:48:33] "GET /map?name=&location=[(148.58862978204542,%20-28.21472904021967),%20(148.59015393994818,%20-28.21472904021967),%20(148.59015393994818,%20-28.216198326810918),%20(148.58862978204542,%20-28.216198326810918)]%20&x=148.58939186099678%20&y=-28.215463681014537 HTTP/1.1" 200 -
+2020-11-17 14:42:34 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 14:42:35 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET / HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-17 14:43:33 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:33] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-17 14:43:34 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:34] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-17 14:43:40 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:40] "GET /ausPIX/?search=R78523 HTTP/1.1" 200 -
+2020-11-17 14:43:43 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:43] "GET /ausPIX/R78523 HTTP/1.1" 200 -
+2020-11-17 14:43:43 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 14:43:43] "GET /map?name=&location=[(148.88888888888889,%20-35.04692560015833),%20(149.25925925925927,%20-35.04692560015833),%20(149.25925925925927,%20-35.43184525044341),%20(148.88888888888889,%20-35.43184525044341)]%20&x=149.07407407407408%20&y=-35.23915910922056 HTTP/1.1" 200 -
+2020-11-17 15:17:30 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:17:30 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:17:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:17:39] "GET /favicon.ico HTTP/1.1" 404 -
+2020-11-17 15:17:57 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:17:57] "GET /ausPIX/?search=R7654345623 HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623 HTTP/1.1" 500 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 15:18:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:18:00] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:24:29 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:24:29 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:24:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:24:51] "GET /ausPIX/R7654345623 HTTP/1.1" 500 -
+2020-11-17 15:24:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:24:51] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 15:24:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:24:51] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 15:24:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:24:51] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 15:24:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:24:51] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:25:20 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:25:20 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:25:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:22] "GET /ausPIX/R7654345623 HTTP/1.1" 500 -
+2020-11-17 15:25:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:22] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 15:25:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:22] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 15:25:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:22] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 15:25:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:22] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:25:51 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:25:52 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:25:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:55] "GET /ausPIX/R7654345623 HTTP/1.1" 500 -
+2020-11-17 15:25:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 15:25:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 15:25:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 15:25:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:25:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:30:50 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:30:51 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:30:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:30:55] "GET /ausPIX/R7654345623 HTTP/1.1" 500 -
+2020-11-17 15:30:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:30:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 15:30:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:30:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 15:30:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:30:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 15:30:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:30:55] "GET /ausPIX/R7654345623?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 15:38:08 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:38:08] "GET /ausPIX/?search=R7555555557 HTTP/1.1" 200 -
+2020-11-17 15:38:09 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:38:09] "GET /ausPIX/R7555555557 HTTP/1.1" 200 -
+2020-11-17 15:38:09 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:38:09] "GET /map?name=&location=[(149.9969516841945,%20-26.43946801176853),%20(149.9984758420973,%20-26.43946801176853),%20(149.9984758420973,%20-26.440914202573122),%20(149.9969516841945,%20-26.440914202573122)]%20&x=149.99771376314584%20&y=-26.440191104926136 HTTP/1.1" 200 -
+2020-11-17 15:38:48 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 15:38:49 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 15:38:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:38:58] "GET /ausPIX/R7555555557 HTTP/1.1" 200 -
+2020-11-17 15:38:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 15:38:58] "GET /map?name=&location=[(149.9969516841945,%20-26.43946801176853),%20(149.9984758420973,%20-26.43946801176853),%20(149.9984758420973,%20-26.440914202573122),%20(149.9969516841945,%20-26.440914202573122)]%20&x=149.99771376314584%20&y=-26.440191104926136 HTTP/1.1" 200 -
+2020-11-17 16:06:33 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 16:06:33 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 16:06:37 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:06:37] "GET /ausPIX/R7555555557 HTTP/1.1" 200 -
+2020-11-17 16:06:37 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:06:37] "GET /map?name=&location=[(149.9969516841945,%20-26.43946801176853),%20(149.9984758420973,%20-26.43946801176853),%20(149.9984758420973,%20-26.440914202573122),%20(149.9969516841945,%20-26.440914202573122)]%20&x=149.99771376314584%20&y=-26.440191104926136 HTTP/1.1" 200 -
+2020-11-17 16:07:21 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 16:07:21 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 16:07:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:07:27] "GET /ausPIX/R7555555557 HTTP/1.1" 200 -
+2020-11-17 16:07:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:07:27] "GET /map?name=&location=[(149.9969516841945,%20-26.43946801176853),%20(149.9984758420973,%20-26.43946801176853),%20(149.9984758420973,%20-26.440914202573122),%20(149.9969516841945,%20-26.440914202573122)]%20&x=149.99771376314584%20&y=-26.440191104926136 HTTP/1.1" 200 -
+2020-11-17 16:17:35 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 16:17:36 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581 HTTP/1.1" 500 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 16:17:44 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:17:44] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 16:19:26 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 16:19:26 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 16:19:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:19:32] "GET /ausPIX/R7555555581 HTTP/1.1" 500 -
+2020-11-17 16:19:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:19:32] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 16:19:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:19:32] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 16:19:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:19:32] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 16:19:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:19:32] "GET /ausPIX/R7555555581?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 16:20:23 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 16:20:24 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558 HTTP/1.1" 500 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 16:20:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 16:20:30] "GET /ausPIX/R7555555558?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:12:14 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:12:14 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:14:15 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:15] "GET / HTTP/1.1" 200 -
+2020-11-17 18:14:15 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:15] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-17 18:14:15 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:15] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-17 18:14:15 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:15] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-17 18:14:16 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:16] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-17 18:14:16 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:16] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-17 18:14:16 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:16] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-17 18:14:16 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:16] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-17 18:14:19 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:19] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-17 18:14:37 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:37] "GET /ausPIX/?search=R7877534672 HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 18:14:39 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:39] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:14:54 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:14:54] "GET /favicon.ico HTTP/1.1" 404 -
+2020-11-17 18:15:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:15:58] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:15:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:15:58] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:15:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:15:58] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:15:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:15:58] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:15:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:15:58] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:16:04 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:16:04 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:16:14 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:16:14] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:16:14 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:16:14] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:16:14 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:16:14] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:16:14 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:16:14] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:16:14 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:16:14] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:17:25 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:17:25 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:17:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:17:27] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:17:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:17:27] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:17:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:17:27] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:17:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:17:27] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:17:27 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:17:27] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:18:30 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:18:30 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:18:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:18:32] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:18:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:18:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:18:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:18:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:18:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:18:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:18:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:18:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:19:21 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:19:22 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:19:50 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:50] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:19:50 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:50] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:19:50 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:50] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:19:50 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:50] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:19:50 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:50] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 18:19:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:19:51] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:19:58 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:19:58 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:20:52 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:52] "GET / HTTP/1.1" 200 -
+2020-11-17 18:20:54 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:54] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-17 18:20:58 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:58] "GET /ausPIX/?search=R7877534672 HTTP/1.1" 200 -
+2020-11-17 18:20:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:59] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:20:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:20:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:20:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:20:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:20:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:21:13 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:21:13 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:21:19 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:19] "GET /ausPIX/?search=R7877534672 HTTP/1.1" 200 -
+2020-11-17 18:21:20 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:20] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:21:20 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:20] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:21:20 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:20] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:21:20 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:20] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:21:20 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:21:20] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:21:54 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:21:54 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:22:04 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:22:04] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:22:04 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:22:04] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:22:04 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:22:04] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:22:04 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:22:04] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:22:04 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:22:04] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:22:59 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:23:00 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:23:12 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:23:12 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:23:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:23:30] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:23:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:23:30] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:23:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:23:30] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:23:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:23:30] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:23:30 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:23:30] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:25:36 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:25:37 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:25:42 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:25:42] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:25:42 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:25:42] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:25:42 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:25:42] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:25:42 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:25:42] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:25:42 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:25:42] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:27:53 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:27:54 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:28:31 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:28:31] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:28:31 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:28:31] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:28:31 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:28:31] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:28:31 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:28:31] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:28:31 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:28:31] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:34:52 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:34:53 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:34:54 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:34:54] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:34:54 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:34:54] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:34:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:34:55] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:34:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:34:55] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:34:55 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:34:55] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:35:18 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:35:18 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:35:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:35:32] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:35:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:35:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:35:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:35:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:35:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:35:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:35:32 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:35:32] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:40:55 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:40:56 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:41:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:41:00] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:41:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:41:00] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:41:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:41:00] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:41:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:41:00] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:41:00 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:41:00] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:44:57 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:44:57 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:44:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:44:59] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:44:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:44:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:44:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:44:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:44:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:44:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:44:59 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:44:59] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:45:56 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:45:56 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:46:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:22] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:46:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:22] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:46:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:22] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:46:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:22] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:46:22 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:22] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:46:33 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:46:34 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:46:35 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:35] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:46:35 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:35] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:46:35 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:35] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:46:35 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:35] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:46:35 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:46:35] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:51:23 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:51:23 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:51:25 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:51:25] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:51:25 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:51:25] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:51:25 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:51:25] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:51:25 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:51:25] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:51:25 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:51:25] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:52:22 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:52:22 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:52:24 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:52:24] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:52:24 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:52:24] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:52:24 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:52:24] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:52:24 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:52:24] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:52:24 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:52:24] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:53:49 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:53:49 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:53:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:53:51] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 18:53:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:53:51] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 18:53:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:53:51] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 18:53:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:53:51] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 18:53:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:53:51] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-17 18:59:49 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 18:59:49 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 18:59:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:59:51] "GET /ausPIX/R7877534672 HTTP/1.1" 200 -
+2020-11-17 18:59:51 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 18:59:51] "GET /map?name=&location=[(145.23395823807348,%20-41.26214827811083),%20(145.23548239597622,%20-41.26214827811083),%20(145.23548239597622,%20-41.263868228585224),%20(145.23395823807348,%20-41.263868228585224)]%20&x=145.23472031702485%20&y=-41.263008247728386 HTTP/1.1" 200 -
+2020-11-17 19:01:41 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-17 19:01:41 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672 HTTP/1.1" 500 -
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-17 19:01:45 INFO _internal.py:122 127.0.0.1 - - [17/Nov/2020 19:01:45] "GET /ausPIX/R7877534672?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:09:04 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:09:04 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:09:12 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:12] "GET / HTTP/1.1" 200 -
+2020-11-18 11:09:12 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:12] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-18 11:09:12 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:12] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-18 11:09:12 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:12] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-18 11:09:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:14] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-18 11:09:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:14] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-18 11:09:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:14] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-18 11:09:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:14] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-18 11:09:17 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:17] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-18 11:09:27 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:27] "GET /ausPIX/?search=R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:09:30 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:09:30] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:15:26 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:15:27 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:15:32 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:15:32] "GET /favicon.ico HTTP/1.1" 404 -
+2020-11-18 11:15:37 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:15:37] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:15:37 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:15:37] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 11:22:12 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:22:13 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 11:22:24 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:22:24] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:23:39 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:23:39 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:23:43 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:23:43] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:23:43 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:23:43] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 11:24:13 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:24:13 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:24:17 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:24:17] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:24:17 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:24:17] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 11:31:12 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:31:13 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:31:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:31:19] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:31:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:31:19] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 11:39:43 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:39:43 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 11:39:57 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:39:57] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:41:23 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:41:24 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:41:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:26] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:41:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:26] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:41:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:26] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:41:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:26] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:41:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:26] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:41:47 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:41:47 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:41:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:49] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:41:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:49] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:41:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:49] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:41:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:49] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:41:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:41:49] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:41:56 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:41:56 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:42:00 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:42:00] "GET /ausPIX/R7834565423 HTTP/1.1" 500 -
+2020-11-18 11:42:00 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:42:00] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 11:42:00 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:42:00] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 11:42:00 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:42:00] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 11:42:00 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:42:00] "GET /ausPIX/R7834565423?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 11:43:18 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:43:18 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:43:23 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:43:23] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:43:23 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:43:23] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 11:55:51 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:55:51 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:55:59 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 11:56:00 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 11:56:02 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:56:02] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 11:56:02 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 11:56:02] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 12:35:57 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:35:57 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:36:08 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:36:08] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 12:36:08 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:36:08] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 12:42:45 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:42:46 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230 HTTP/1.1" 500 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 12:42:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:42:49] "GET /ausPIX/R78345654230?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 12:43:11 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:43:12 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:43:15 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:43:15] "GET /ausPIX/R7834565423 HTTP/1.1" 200 -
+2020-11-18 12:43:15 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:43:15] "GET /map?name=&location=[(141.9570187471422,%20-36.526915153530915),%20(141.95854290504496,%20-36.526915153530915),%20(141.95854290504496,%20-36.52852493192411),%20(141.9570187471422,%20-36.52852493192411)]%20&x=141.9577808260936%20&y=-36.527720038576064 HTTP/1.1" 200 -
+2020-11-18 12:47:11 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:47:11 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET / HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-18 12:47:19 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:19] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-18 12:47:22 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:22] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-18 12:47:38 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:38] "GET /ausPIX/?search=R7863452343 HTTP/1.1" 200 -
+2020-11-18 12:47:39 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:39] "GET /ausPIX/R7863452343 HTTP/1.1" 200 -
+2020-11-18 12:47:39 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:47:39] "GET /map?name=&location=[(140.70416095107453,%20-39.95581544129568),%20(140.70568510897732,%20-39.95581544129568),%20(140.70568510897732,%20-39.95750234712721),%20(140.70416095107453,%20-39.95750234712721)]%20&x=140.70492303002595%20&y=-39.95665888905102 HTTP/1.1" 200 -
+2020-11-18 12:53:22 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:53:23 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:53:25 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:53:25] "GET /favicon.ico HTTP/1.1" 404 -
+2020-11-18 12:53:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:53:26] "GET /ausPIX/R7863452343 HTTP/1.1" 200 -
+2020-11-18 12:53:26 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:53:26] "GET /map?name=&location=[(140.70416095107453,%20-39.95581544129568),%20(140.70568510897732,%20-39.95581544129568),%20(140.70568510897732,%20-39.95750234712721),%20(140.70416095107453,%20-39.95750234712721)]%20&x=140.70492303002595%20&y=-39.95665888905102 HTTP/1.1" 200 -
+2020-11-18 12:54:13 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:13] "GET /ausPIX/?search=R7757865382 HTTP/1.1" 200 -
+2020-11-18 12:54:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:14] "GET /ausPIX/R7757865382 HTTP/1.1" 200 -
+2020-11-18 12:54:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:14] "GET /map?name=&location=[(138.61301630848956,%20-38.11603817544454),%20(138.61454046639233,%20-38.11603817544454),%20(138.61454046639233,%20-38.11768206603986),%20(138.61301630848956,%20-38.11768206603986)]%20&x=138.61377838744093%20&y=-38.11686011615493 HTTP/1.1" 200 -
+2020-11-18 12:54:34 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:34] "GET /ausPIX/?search=R7357865382 HTTP/1.1" 200 -
+2020-11-18 12:54:36 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:36] "GET /ausPIX/R7357865382 HTTP/1.1" 200 -
+2020-11-18 12:54:36 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:54:36] "GET /map?name=&location=[(128.61301630848956,%20-27.974035403825656),%20(128.61454046639236,%20-27.974035403825656),%20(128.61454046639236,%20-27.975501433267855),%20(128.61301630848956,%20-27.975501433267855)]%20&x=128.61377838744093%20&y=-27.97476841608224 HTTP/1.1" 200 -
+2020-11-18 12:58:20 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 12:58:20 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 12:58:25 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:58:25] "GET /ausPIX/R7357865382 HTTP/1.1" 200 -
+2020-11-18 12:58:25 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 12:58:25] "GET /map?name=&location=[(128.61301630848956,%20-27.974035403825656),%20(128.61454046639236,%20-27.974035403825656),%20(128.61454046639236,%20-27.975501433267855),%20(128.61301630848956,%20-27.975501433267855)]%20&x=128.61377838744093%20&y=-27.97476841608224 HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora HTTP/1.1" 500 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 13:00:03 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 13:00:03] "GET /ausPIX/Leinster%20-%20Leonora?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 15:13:46 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 15:13:46 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382 HTTP/1.1" 500 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 15:13:51 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:13:51] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 15:14:46 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 15:14:47 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 15:14:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:14:49] "GET /ausPIX/R7357865382 HTTP/1.1" 200 -
+2020-11-18 15:14:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:14:49] "GET /map?name=&location=[(128.61301630848956,%20-27.974035403825656),%20(128.61454046639236,%20-27.974035403825656),%20(128.61454046639236,%20-27.975501433267855),%20(128.61301630848956,%20-27.975501433267855)]%20&x=128.61377838744093%20&y=-27.97476841608224 HTTP/1.1" 200 -
+2020-11-18 15:21:11 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 15:21:11 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382 HTTP/1.1" 500 -
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-11-18 15:21:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:14] "GET /ausPIX/R7357865382?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-11-18 15:21:44 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 15:21:45 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 15:21:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:46] "GET /ausPIX/R7357865382 HTTP/1.1" 200 -
+2020-11-18 15:21:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:21:46] "GET /map?name=&location=[(128.61301630848956,%20-27.974035403825656),%20(128.61454046639236,%20-27.974035403825656),%20(128.61454046639236,%20-27.975501433267855),%20(128.61301630848956,%20-27.975501433267855)]%20&x=128.61377838744093%20&y=-27.97476841608224 HTTP/1.1" 200 -
+2020-11-18 15:23:11 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-18 15:23:11 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 15:23:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:23:14] "GET /ausPIX/R7357865382 HTTP/1.1" 200 -
+2020-11-18 15:23:14 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:23:14] "GET /map?name=&location=[(128.61301630848956,%20-27.974035403825656),%20(128.61454046639236,%20-27.974035403825656),%20(128.61454046639236,%20-27.975501433267855),%20(128.61301630848956,%20-27.975501433267855)]%20&x=128.61377838744093%20&y=-27.97476841608224 HTTP/1.1" 200 -
+2020-11-18 15:26:02 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:02] "GET / HTTP/1.1" 200 -
+2020-11-18 15:26:21 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:21] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-18 15:26:35 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:35] "GET /ausPIX/?search= HTTP/1.1" 200 -
+2020-11-18 15:26:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:46] "GET /ausPIX/?search=R7852354342 HTTP/1.1" 200 -
+2020-11-18 15:26:50 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:50] "GET /ausPIX/R7852354342 HTTP/1.1" 200 -
+2020-11-18 15:26:50 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:50] "GET /map?name=&location=[(149.18457552202406,%20-35.23678310754733),%20(149.18609967992685,%20-35.23678310754733),%20(149.18609967992685,%20-35.23836710099806),%20(149.18457552202406,%20-35.23836710099806)]%20&x=149.18533760097543%20&y=-35.237575100440445 HTTP/1.1" 200 -
+2020-11-18 15:26:50 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:50] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-18 15:26:56 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:56] "GET /ausPIX/R7852354342 HTTP/1.1" 200 -
+2020-11-18 15:26:56 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 15:26:56] "GET /map?name=&location=[(149.18457552202406,%20-35.23678310754733),%20(149.18609967992685,%20-35.23678310754733),%20(149.18609967992685,%20-35.23836710099806),%20(149.18457552202406,%20-35.23836710099806)]%20&x=149.18533760097543%20&y=-35.237575100440445 HTTP/1.1" 200 -
+2020-11-18 20:49:45 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:45] "GET / HTTP/1.1" 200 -
+2020-11-18 20:49:45 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:45] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-18 20:49:45 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:45] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-18 20:49:45 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:45] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-18 20:49:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:46] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-18 20:49:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:46] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-18 20:49:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:46] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-18 20:49:46 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:46] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-18 20:49:49 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:49] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-18 20:49:56 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:56] "GET / HTTP/1.1" 200 -
+2020-11-18 20:49:59 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:49:59] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-18 20:50:15 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:50:15] "GET /ausPIX/?search=R7852356734 HTTP/1.1" 200 -
+2020-11-18 20:50:17 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:50:17] "GET /ausPIX/R7852356734 HTTP/1.1" 200 -
+2020-11-18 20:50:17 INFO _internal.py:122 127.0.0.1 - - [18/Nov/2020 20:50:17] "GET /map?name=&location=[(149.1510440481634,%20-35.29541130775155),%20(149.15256820606618,%20-35.29541130775155),%20(149.15256820606618,%20-35.296996437602004),%20(149.1510440481634,%20-35.296996437602004)]%20&x=149.15180612711478%20&y=-35.29620386883064 HTTP/1.1" 200 -
+2020-11-22 17:17:47 DEBUG app.py:21 conf = {'APP_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS',
+ 'DGGS_PID_PREFIX': 'ec2-13-238-161-97-ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/',
+ 'LOGFILE': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS/flask.log',
+ 'STATIC_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\static',
+ 'TEMPLATES_DIR': 'C:\\Users\\Joseph\\PycharmProjects\\AusPIX-DGGS-dataset\\auspixDGGS\\view\\templates'}
+2020-11-22 17:17:47 INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET / HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/master.css HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/extra.css HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/ga_theme.css HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/ga-logo.jpg HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/lo.jpg HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /static/by.png HTTP/1.1" 200 -
+2020-11-22 17:18:08 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:08] "GET /samples/static/img/ga/right-arrow.png HTTP/1.1" 404 -
+2020-11-22 17:18:13 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:13] "GET /ausPIX/ HTTP/1.1" 200 -
+2020-11-22 17:18:30 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:30] "GET /ausPIX/?search=R7853478654 HTTP/1.1" 200 -
+2020-11-22 17:18:35 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:35] "GET /ausPIX/R7853478654 HTTP/1.1" 200 -
+2020-11-22 17:18:35 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2020 17:18:35] "GET /map?name=&location=[(147.25346745922877,%20-36.58972115233693),%20(147.25499161713154,%20-36.58972115233693),%20(147.25499161713154,%20-36.59133222851863),%20(147.25346745922877,%20-36.59133222851863)]%20&x=147.25422953818017%20&y=-36.590526686260056 HTTP/1.1" 200 -
