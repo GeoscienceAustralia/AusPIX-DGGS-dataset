@@ -95,7 +95,7 @@ def show_map():
 
     # create a new map object
     tooltip = 'Click for more information'
-    folium_map = folium.Map(location=[y, x], zoom_start=3)
+    folium_map = folium.Map(location=[y, x], zoom_start=7)
     # create markers
     folium.Marker([y, x],
         popup = auspix,
@@ -111,3 +111,4 @@ def show_map():
                                       color='#FF6347')
 
     return folium_map.get_root().render()
+
