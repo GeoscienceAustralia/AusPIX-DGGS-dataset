@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import decimal
 import json
@@ -6,18 +5,18 @@ import json
 from flask import render_template, Response
 
 #import folium
-import _conf as conf
+#import _conf as conf
 from pyldapi import Renderer, Profile
 
 from rdflib import Graph, URIRef, RDF, XSD, Namespace, Literal, BNode
 from rdflib.namespace import XSD, DCTERMS, RDFS   #imported for 'export_rdf' function
-from _conf import DB_CON_DICT
-import psycopg2
+#from _conf import DB_CON_DICT
+#import psycopg2
 
 
-# for DGGSC:C zone attribution
+# import AusPIx engine as module
 from rhealpixdggs import dggs
-rdggs = dggs.RHEALPixDGGS()
+rdggs = dggs.RHEALPixDGGS() # make an instance
 
 class DGGS_data(Renderer):
     """
@@ -30,7 +29,7 @@ class DGGS_data(Renderer):
         format_list = ['text/html', 'text/turtle', 'application/ld+json', 'application/rdf+xml']
         views = {
             'auspix': Profile(
-                'http://linked.data.gov.au/def/AusPix/',
+                'fsdf.org.au/dataset/auspix/',
                 'AusPIX DGGS cell view',
                 'This is the combined view of an AusPIX DGGS Cell delivered by the AusPIX dataset in '
                 'accordance with the Profile',
@@ -45,7 +44,7 @@ class DGGS_data(Renderer):
         print('self.id = ', self.id)  #self ID is the cell id
 
         self.hasName = {
-            'uri': 'http://linked.data.gov.au/def/ausPIX/',
+            'uri': 'fsdf.org.au/dataset/auspix/',
             'label': 'from AusPIX DGGS engine (beta version 0.9):',
             'comment': 'The Entity has a name (label) which is a text sting.',
             'value': None
@@ -65,16 +64,11 @@ class DGGS_data(Renderer):
         self.contains = None
         self.subCells = None
         self.partOfCell = None
-        self.sa1code = None
-        self.sa2name = None
-        self.sedname = None
-
 
 
         # use DGGS engine to find values
 
         self.auspix = self.id
-        print('auspix', type(self.auspix))
         #print('dggs cell ID =', self.auspix)
         self.hasName = self.id
         dggsLoc = list()  # empty list ready to fill
@@ -155,42 +149,7 @@ class DGGS_data(Renderer):
         #print('mysubs', mySubCells)
         self.partOfCell = self.auspix[:-1]  #take one number off the end of cell ID, = parent cell
 
-        #connect to crosswalk table and get crosswalk information for this cell
-        mycells = (self.id, "")
-
-
-        print('query AWS database . . . . ')
-        connection = psycopg2.connect(**DB_CON_DICT)
-
-        cursor = connection.cursor()
-
-        # postgreSQL_select_Query = " SELECT * FROM crosswalk WHERE auspix_dggs IN %s;"   # works but return not json
-        # return data as json
-        postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN %s;"  # seems to only get the first item as json
-
-        # postgreSQL_select_Query = " SELECT json_agg(crosswalk) FROM crosswalk WHERE auspix_dggs IN  ('R7852348515', 'R7852348516', 'R7852348517');"
-        cursor.execute(postgreSQL_select_Query, (mycells, ))
-
-        print("Selecting rows from national crosswalk table using cursor.fetchall")
-
-        theseRecords = cursor.fetchall()
-        print('num Recs', theseRecords)
-
-        result = theseRecords[0][0][0]
-
-        for key, value in result.items():
-            print(key, ' : ', value)
-
-        print("SA1 code 2016 = ", result['sa1_main16'])
-        self.sa1code = result['sa1_main16']
-
-        print('sa2 name', result['sa2_name16'])
-        self.sa2name = result['sa2_name16']
-        self.sedname = result['sedname19']
-
-
-
-
+        # connect to crosswalk table and get crosswalk information for this cell - possible future dev or new API
 
 
     def export_html(self):
@@ -198,7 +157,8 @@ class DGGS_data(Renderer):
                 render_template(     # render_template is also a Flask module
                     'auspix_cell.html',   # uses the html template send all this data to it.
                     id=self.auspix,
-                    uri=conf.DGGS_PID_PREFIX + self.auspix,
+                    #uri=conf.DGGS_PID_PREFIX + self.auspix,
+                    uri = 'fsdf.org.au/dataset/auspix/' + self.auspix, # for landing page only?
                     auspix=self.auspix,
                     hasName=self.hasName,
                     dggs = self.auspix,
@@ -211,9 +171,6 @@ class DGGS_data(Renderer):
                     area_m2= self.area_m2,
                     contains = self.contains,
                     partOfCell = self.partOfCell,
-                    sa1code = self.sa1code,
-                    sa2name = self.sa2name,
-                    sedname = self.sedname,
 
                     neighs = self.neighs
                     # schemaorg=self.export_schemaorg()
@@ -236,15 +193,14 @@ class DGGS_data(Renderer):
 
 
 
-
     def export_rdf(self):  #also for text/turtle
         g = Graph()  # make instance of an RDF graph
 
         # namespace declarations
-        auspix = URIRef('http://ec2-52-63-73-113.ap-southeast-2.compute.amazonaws.com/AusPIX-DGGS-dataset/')
+        auspix = URIRef('fsdf.org.au/dataset/auspix/')
         g.bind('auspix', auspix)  #made the cell ID the subject of the triples
 
-        apo = Namespace('http://linked.data.gov.au/def/auspix#')  # ontolgy  = /def/  #the ontolgy   auspix ontolgy == apo
+        apo = Namespace('fsdf.org.au/datset/auspix#')  # ontolgy  = /def/  #the ontolgy   auspix ontolgy == apo
         g.bind('apo', apo)
         # g.add((auspix, RDF.type, URIRef('http://linked.data.gov.au/def/dggs/auspix')))  # pattren for type  . . . . a . . . . .
         geo = Namespace('http://www.opengis.net/ont/geosparql#')
