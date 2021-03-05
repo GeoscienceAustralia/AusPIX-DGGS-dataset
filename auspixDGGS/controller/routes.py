@@ -1,8 +1,8 @@
 from flask import Blueprint, request, Response, render_template
-from model.dggs_data import DGGS_data
+from auspixDGGS.model.dggs_data import DGGS_data
 
 from pyldapi import ContainerRenderer
-import _conf
+import auspixDGGS._conf
 import folium
 import psycopg2
 print(__name__)
