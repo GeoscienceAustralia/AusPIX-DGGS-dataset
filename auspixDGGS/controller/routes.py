@@ -15,7 +15,7 @@ DEFAULT_ITEMS_PER_PAGE=150
 def home():
     return render_template('/home.html')
 
-@routes.route('/ausPIX/')
+@routes.route('/collections/auspix/')
 def ausPIX():
     search_string = request.values.get('search')
     return render_template('ausPIX.html',
@@ -23,7 +23,7 @@ def ausPIX():
                            search_enabled=True
                            )
 
-@routes.route('/ausPIX/<string:auspix_cell_id>')
+@routes.route('/collections/auspix/items/<string:auspix_cell_id>')
 def auspix_cell(auspix_cell_id):
     auspix_cell = DGGS_data(request, request.base_url)
     return auspix_cell.render()
