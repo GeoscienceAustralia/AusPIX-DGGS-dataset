@@ -1,10 +1,8 @@
 from flask import Blueprint, request, Response, render_template
 from auspixDGGS.model.dggs_data import DGGS_data
-
-from pyldapi import ContainerRenderer
-import auspixDGGS._conf
+import os
+from auspixDGGS._conf import APP_DIR
 import folium
-import psycopg2
 print(__name__)
 routes = Blueprint('controller', __name__)
 
@@ -14,6 +12,14 @@ DEFAULT_ITEMS_PER_PAGE=150
 @routes.route('/', strict_slashes=True)
 def home():
     return render_template('/home.html')
+
+
+@routes.route('/index.ttl', strict_slashes=True)
+def dataset_ttl():
+    file = 'auspix.ttl'
+    ttl_txt = open(os.path.join(APP_DIR, 'view', file), 'rb').read().decode('utf-8')
+    return Response(ttl_txt, mimetype='text/turtle')
+
 
 @routes.route('/collections/auspix/')
 def ausPIX():
@@ -40,7 +46,6 @@ def show_map():
     corners = (request.values.get('location')).split('),')
 
     #corners is straight from database via auspix_location.py and auspix_location.html
-    #print('cornersXXroutes', corners[0], corners[1], corners[2], corners[3])
     # convert the corner information  into a list for the leaflet map
     longLatsList = list()
     for thing in corners:
@@ -53,7 +58,6 @@ def show_map():
         split_thing = thing.split(',')
         # needs latitude first
         latLongs = [split_thing[1], split_thing[0]]
-        #print('splitlATlongs', latLongs)
         coords = list()
         # convert to floats
         for item in latLongs:
@@ -62,8 +66,6 @@ def show_map():
 
     x = float(request.values.get('x'))
     y = float(request.values.get('y'))
-    # print('x', x)
-    # print('y', y)
     # algorithm designed to make it map properly . . .
     min_long = min(longLatsList[0][1], longLatsList[1][1], longLatsList[2][1], longLatsList[3][1])
     max_long = max(longLatsList[0][1], longLatsList[1][1], longLatsList[2][1], longLatsList[3][1])

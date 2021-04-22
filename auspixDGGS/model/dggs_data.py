@@ -39,9 +39,9 @@ class DGGS_data(Renderer):
         }
         #
         super(DGGS_data, self).__init__(request, uri, views, 'auspix')
-        print('this uri', uri)
+        # print('this uri', uri)
         self.id = uri.split('/')[-1]  #needed for routes
-        print('self.id = ', self.id)  #self ID is the cell id
+        # print('self.id = ', self.id)  #self ID is the cell id
 
         self.hasName = {
             'uri': 'fsdf.org.au/dataset/auspix/',
@@ -183,7 +183,7 @@ class DGGS_data(Renderer):
 
     def render(self):
         if self.profile == 'alt':
-            print('alt profile active')
+            # print('alt profile active')
             return self._render_alt_profile()  # this function is in Renderer
         elif self.mediatype in ['text/turtle', 'application/ld+json', 'application/rdf+xml']:
             return self.export_rdf()
