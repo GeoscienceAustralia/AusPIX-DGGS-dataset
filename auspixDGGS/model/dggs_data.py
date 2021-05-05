@@ -29,7 +29,7 @@ class DGGS_data(Renderer):
         format_list = ['text/html', 'text/turtle', 'application/ld+json', 'application/rdf+xml']
         views = {
             'auspix': Profile(
-                'fsdf.org.au/dataset/auspix/',
+                'https://linked.data.gov.au/dataset/auspix/',
                 'AusPIX DGGS cell view',
                 'This is the combined view of an AusPIX DGGS Cell delivered by the AusPIX dataset in '
                 'accordance with the Profile',
@@ -44,7 +44,7 @@ class DGGS_data(Renderer):
         # print('self.id = ', self.id)  #self ID is the cell id
 
         self.hasName = {
-            'uri': 'fsdf.org.au/dataset/auspix/',
+            'uri': 'https://linked.data.gov.au/dataset/auspix/',
             'label': 'from AusPIX DGGS engine (beta version 0.9):',
             'comment': 'The Entity has a name (label) which is a text sting.',
             'value': None
@@ -158,7 +158,7 @@ class DGGS_data(Renderer):
                     'auspix_cell.html',   # uses the html template send all this data to it.
                     id=self.auspix,
                     #uri=conf.DGGS_PID_PREFIX + self.auspix,
-                    uri = 'fsdf.org.au/dataset/auspix/' + self.auspix, # for landing page only?
+                    uri = 'https://linked.data.gov.au/dataset/auspix/' + self.auspix, # for landing page only?
                     auspix=self.auspix,
                     hasName=self.hasName,
                     dggs = self.auspix,
